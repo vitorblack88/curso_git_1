@@ -1,0 +1,85 @@
+/* ==========================================================================
+   CSS BÁSICO PARA TESTE DE REPOSITÓRIO
+   ========================================================================== */
+
+/* Configurações Globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container Principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo dos Cards */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #0056b3;
+    margin-top: 0;
+}
+
+/* Formulários */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #004085;
+}
+
+/* Badges / Etiquetas */
+.badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.badge-success {
+    background-color: #28a745;
+    color: #ffffff;
+}
