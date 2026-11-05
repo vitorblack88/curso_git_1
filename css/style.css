@@ -83,3 +83,8 @@ input[type="text"] {
     background-color: #28a745;
     color: #ffffff;
 }
+
+.badge-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
